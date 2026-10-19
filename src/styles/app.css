@@ -1343,3 +1343,30 @@ dl.facts dd {
   max-width: 520px;
   margin: 0 auto;
 }
+
+/* ---------- owned = full colour, not owned = faded, like an empty sticker slot ---------- */
+.tag[data-owned='false'] .tag-face img,
+.thumb[data-owned='false'] img {
+  filter: grayscale(1) contrast(0.85);
+  opacity: 0.38;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+.tag[data-owned='false'] .tag-number,
+.thumb[data-owned='false'] > span {
+  opacity: 0.38;
+}
+.tag[data-owned='false'] .tag-name {
+  color: var(--ink-2);
+}
+.tag[data-owned='false']:hover .tag-face img {
+  filter: grayscale(0.4);
+  opacity: 0.75;
+}
+.tag[data-owned='true'] {
+  border-color: var(--line-strong);
+}
+.detail-media[data-owned='false'] .tag-face img,
+.detail-media[data-owned='false'] .tag-number {
+  filter: grayscale(1);
+  opacity: 0.5;
+}

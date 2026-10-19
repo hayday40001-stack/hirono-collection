@@ -194,6 +194,13 @@ export interface Photo {
   created_at: string;
 }
 
+/** An image link the user pasted for an item. Shown only on this device; never published. */
+export interface CustomImage {
+  item_id: string;
+  url: string;
+  updated_at: string;
+}
+
 export interface CatalogEditEvent {
   id: string;
   target: 'item' | 'series' | 'catalog';

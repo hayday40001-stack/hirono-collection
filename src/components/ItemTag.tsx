@@ -33,11 +33,14 @@ export const usePhotoIndex = () => useContext(PhotoCtx);
 export function ItemFace({ item, size = 'card' }: { item: Item; size?: 'card' | 'thumb' | 'hero' }) {
   const photo = usePhotoIndex().get(item.id);
   const photoUrl = useObjectUrl(photo);
-  const [broken, setBroken] = useState(false);
-  const src = photoUrl ?? (!broken ? item.images[0] : undefined);
-  const alt = photoUrl ? `รูปถ่ายของคุณ: ${item.name_en}` : `${item.name_en}`;
+  const linked = useApp().data.customImages.get(item.id);
+  const [broken, setBroken] = useState<string | null>(null);
+  const candidates = [photoUrl, linked, item.images[0]].filter((u): u is string => !!u && u !== broken);
+  const src = candidates[0];
+  useEffect(() => setBroken(null), [linked]);
+  const alt = src === photoUrl ? `รูปถ่ายของคุณ: ${item.name_en}` : item.name_en;
   if (src) {
-    return <img src={src} alt={alt} loading="lazy" decoding="async" onError={() => setBroken(true)} />;
+    return <img src={src} alt={alt} loading="lazy" decoding="async" referrerPolicy="no-referrer" onError={() => setBroken(src)} />;
   }
   if (size === 'thumb') return <span aria-hidden>{monogram(item.name_en)}</span>;
   return (
@@ -72,7 +75,7 @@ export function statusText(entry: CollectionEntry | undefined, hunting: boolean)
 export const ItemTag = memo(function ItemTag({ item, series, entry, hunting }: { item: Item; series?: Series; entry?: CollectionEntry; hunting: boolean }) {
   const verified = isVerified(item.verification_status);
   return (
-    <a className="tag" href={href(`/item/${encodeURIComponent(item.id)}`)} data-verified={verified} aria-label={`${item.name_en}, ${statusText(entry, hunting)}`}>
+    <a className="tag" href={href(`/item/${encodeURIComponent(item.id)}`)} data-verified={verified} data-owned={isOwned(entry)} aria-label={`${item.name_en}, ${statusText(entry, hunting)}`}>
       <div className="tag-face">
         <ItemFace item={item} />
         <Stamp entry={entry} hunting={hunting} />
@@ -93,7 +96,7 @@ export const ItemRow = memo(function ItemRow({ item, series, entry, hunting, tra
   const owned = isOwned(entry);
   return (
     <a className="list-row" href={href(`/item/${encodeURIComponent(item.id)}`)}>
-      <span className="thumb">
+      <span className="thumb" data-owned={owned}>
         <ItemFace item={item} size="thumb" />
       </span>
       <span style={{ display: 'grid', gap: 2, minWidth: 0 }}>

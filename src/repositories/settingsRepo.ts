@@ -1,6 +1,7 @@
 import type { Database } from '../db/store.ts';
 import { newId, nowIso } from '../db/store.ts';
-import { DEFAULT_SETTINGS, type Photo, type Settings } from '../domain/types.ts';
+import { DEFAULT_SETTINGS, type CustomImage, type Photo, type Settings } from '../domain/types.ts';
+import { safeHttpUrl } from '../domain/schema.ts';
 
 export function settingsRepo(db: Database) {
   const get = async (): Promise<Settings> => {
@@ -41,6 +42,22 @@ export function photoRepo(db: Database) {
         return p;
       }),
     remove: (id: string) => db.write(['photos'], (tx) => tx.delete('photos', id)),
+  };
+}
+
+/** Image links the user pastes for items. Kept on this device only. */
+export function imageRepo(db: Database) {
+  return {
+    list: () => db.read(['customImages'], (tx) => tx.getAll<CustomImage>('customImages')),
+    async set(itemId: string, url: string) {
+      const safe = safeHttpUrl(url);
+      if (!safe || safe.length > 2000) throw new Error('ลิงก์รูปต้องขึ้นต้นด้วย https:// หรือ http://');
+      await db.write(['customImages', 'items'], async (tx) => {
+        if (!(await tx.get('items', itemId))) throw new Error('ไม่พบรายการนี้ใน Catalog');
+        await tx.put<CustomImage>('customImages', { item_id: itemId, url: safe, updated_at: nowIso() });
+      });
+    },
+    remove: (itemId: string) => db.write(['customImages'], (tx) => tx.delete('customImages', itemId)),
   };
 }
 

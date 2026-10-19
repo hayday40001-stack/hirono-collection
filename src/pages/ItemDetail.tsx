@@ -183,7 +183,11 @@ function ItemView({ item }: { item: Item }) {
 }
 
 function Media({ item }: { item: Item }) {
-  const { db, repos } = useApp();
+  const { db, repos, data } = useApp();
+  const linked = data.customImages.get(item.id);
+  const [link, setLink] = useState(linked ?? '');
+  const [editingLink, setEditingLink] = useState(false);
+  const linkBad = link.trim() !== '' && !safeHttpUrl(link);
   const run = useAction();
   const confirm = useConfirm();
   const [rev, setRev] = useState(0);
@@ -207,8 +211,15 @@ function Media({ item }: { item: Item }) {
   };
 
   return (
-    <div className="detail-media">
-      <div className="tag-face" style={{ cursor: item.images[0] ? 'zoom-in' : 'default' }} onClick={() => item.images[0] && setOpen({ src: item.images[0], alt: item.name_en })}>
+    <div className="detail-media" data-owned={isOwned(data.entries.get(item.id))}>
+      <div
+        className="tag-face"
+        style={{ cursor: linked || item.images[0] ? 'zoom-in' : 'default' }}
+        onClick={() => {
+          const src = linked ?? item.images[0];
+          if (src) setOpen({ src, alt: item.name_en });
+        }}
+      >
         <ItemFace item={item} size="hero" />
       </div>
       {photos.value && photos.value.length > 0 && (
@@ -227,6 +238,37 @@ function Media({ item }: { item: Item }) {
             />
           ))}
         </div>
+      )}
+      {editingLink ? (
+        <form
+          className="panel"
+          onSubmit={async (e) => {
+            e.preventDefault();
+            if (linkBad) return;
+            const ok = link.trim()
+              ? await run(() => repos.images.set(item.id, link.trim()), 'บันทึกลิงก์รูปแล้ว')
+              : await run(() => repos.images.remove(item.id), 'ลบลิงก์รูปแล้ว');
+            if (ok !== undefined) setEditingLink(false);
+          }}
+        >
+          <label className="field">
+            <span>ลิงก์รูปสินค้า</span>
+            <input className="input" type="url" inputMode="url" placeholder="https://…" value={link} aria-invalid={linkBad} onChange={(e) => setLink(e.target.value)} autoFocus />
+            <small>กดค้างที่รูปบนเว็บร้านค้าแล้วเลือก “คัดลอกลิงก์รูป” รูปนี้แสดงเฉพาะในเครื่องของคุณ ถ้าเว็บต้นทางเปลี่ยนลิงก์ รูปจะหายไป</small>
+          </label>
+          <div className="row">
+            <button type="submit" className="btn primary small" disabled={linkBad}>
+              {link.trim() ? 'บันทึกลิงก์' : 'ลบลิงก์'}
+            </button>
+            <button type="button" className="btn small" onClick={() => { setLink(linked ?? ''); setEditingLink(false); }}>
+              ยกเลิก
+            </button>
+          </div>
+        </form>
+      ) : (
+        <button type="button" className="btn small quiet" style={{ justifySelf: 'start' }} onClick={() => setEditingLink(true)}>
+          {linked ? 'แก้ลิงก์รูป' : 'ใส่ลิงก์รูปจากเว็บ'}
+        </button>
       )}
       <label className="btn small" style={{ justifySelf: 'start' }}>
         <IconCamera /> เพิ่มรูปถ่ายของคุณ

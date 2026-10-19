@@ -6,7 +6,7 @@ export const DB_NAME = 'hirono-collection';
  * new object store or index is needed. Data-shape migrations live in
  * migrations.ts and run on top of this.
  */
-export const IDB_VERSION = 1;
+export const IDB_VERSION = 2;
 
 function upgrade(db: IDBDatabase, oldVersion: number) {
   if (oldVersion < 1) {
@@ -14,7 +14,9 @@ function upgrade(db: IDBDatabase, oldVersion: number) {
       if (!db.objectStoreNames.contains(name)) db.createObjectStore(name, { keyPath: KEY_PATHS[name] });
     }
   }
-  // if (oldVersion < 2) { ... future stores/indexes ... }
+  if (oldVersion < 2) {
+    if (!db.objectStoreNames.contains('customImages')) db.createObjectStore('customImages', { keyPath: KEY_PATHS.customImages });
+  }
 }
 
 function req<T>(r: IDBRequest<T>): Promise<T> {

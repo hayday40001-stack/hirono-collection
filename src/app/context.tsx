@@ -5,9 +5,9 @@ import { createMemoryDatabase } from '../db/memory.ts';
 import { runMigrations } from '../db/migrations.ts';
 import { collectionRepo } from '../repositories/collectionRepo.ts';
 import { catalogRepo } from '../repositories/catalogRepo.ts';
-import { photoRepo, settingsRepo } from '../repositories/settingsRepo.ts';
+import { imageRepo, photoRepo, settingsRepo } from '../repositories/settingsRepo.ts';
 import { applyCatalog, fetchPublishedCatalog } from '../services/catalogUpdate.ts';
-import type { CatalogMeta, CollectionEntry, Item, Series, Settings, Source, WishlistEntry } from '../domain/types.ts';
+import type { CatalogMeta, CollectionEntry, CustomImage, Item, Series, Settings, Source, WishlistEntry } from '../domain/types.ts';
 import { DEFAULT_SETTINGS } from '../domain/types.ts';
 
 export const APP_VERSION = typeof __APP_VERSION__ === 'string' ? __APP_VERSION__ : 'dev';
@@ -18,6 +18,7 @@ function makeRepos(db: Database) {
     catalog: catalogRepo(db),
     settings: settingsRepo(db),
     photos: photoRepo(db),
+    images: imageRepo(db),
   };
 }
 export type Repos = ReturnType<typeof makeRepos>;
@@ -33,6 +34,8 @@ export interface DataState {
   entries: Map<string, CollectionEntry>;
   entryList: CollectionEntry[];
   wishlist: Map<string, WishlistEntry>;
+  /** item_id -> image link the user pasted */
+  customImages: Map<string, string>;
   settings: Settings;
 }
 
@@ -62,8 +65,8 @@ export const useData = () => useApp().data;
 export const useRepos = () => useApp().repos;
 
 async function loadData(db: Database): Promise<DataState> {
-  return db.read(['meta', 'items', 'series', 'sources', 'collection', 'wishlist', 'settings'], async (tx) => {
-    const [meta, items, series, sources, entryList, wish, settings] = await Promise.all([
+  return db.read(['meta', 'items', 'series', 'sources', 'collection', 'wishlist', 'settings', 'customImages'], async (tx) => {
+    const [meta, items, series, sources, entryList, wish, settings, images] = await Promise.all([
       tx.get<CatalogMeta>('meta', 'catalog'),
       tx.getAll<Item>('items'),
       tx.getAll<Series>('series'),
@@ -71,6 +74,7 @@ async function loadData(db: Database): Promise<DataState> {
       tx.getAll<CollectionEntry>('collection'),
       tx.getAll<WishlistEntry>('wishlist'),
       tx.get<Settings>('settings', 'settings'),
+      tx.getAll<CustomImage>('customImages'),
     ]);
     return {
       meta,
@@ -83,6 +87,7 @@ async function loadData(db: Database): Promise<DataState> {
       entries: new Map(entryList.map((e) => [e.item_id, e])),
       entryList,
       wishlist: new Map(wish.map((w) => [w.item_id, w])),
+      customImages: new Map(images.map((i) => [i.item_id, i.url])),
       settings: { ...DEFAULT_SETTINGS, ...settings, profile: { ...DEFAULT_SETTINGS.profile, ...settings?.profile } },
     };
   });

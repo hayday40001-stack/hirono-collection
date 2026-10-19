@@ -13,6 +13,7 @@ export const STORES = {
   wishlist: 'wishlist', // personal                                (key: item_id)
   photos: 'photos', // personal, blobs                             (key: id)
   settings: 'settings', // personal                                (key: key)
+  customImages: 'customImages', // personal: image links the user pasted (key: item_id)
 } as const;
 
 export type StoreName = (typeof STORES)[keyof typeof STORES];
@@ -28,10 +29,11 @@ export const KEY_PATHS: Record<StoreName, string> = {
   wishlist: 'item_id',
   photos: 'id',
   settings: 'key',
+  customImages: 'item_id',
 };
 
 export const CATALOG_STORES: StoreName[] = ['sources', 'series', 'items', 'catalogHistory'];
-export const PERSONAL_STORES: StoreName[] = ['collection', 'statusHistory', 'wishlist', 'photos', 'settings'];
+export const PERSONAL_STORES: StoreName[] = ['collection', 'statusHistory', 'wishlist', 'photos', 'settings', 'customImages'];
 
 export interface Tx {
   get<T>(store: StoreName, key: string): Promise<T | undefined>;

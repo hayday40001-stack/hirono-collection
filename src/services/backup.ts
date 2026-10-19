@@ -1,7 +1,7 @@
 import type { Database } from '../db/store.ts';
 import { nowIso } from '../db/store.ts';
-import { s, type Result, type Schema } from '../domain/schema.ts';
-import type { CollectionEntry, Item, Photo, Series, Settings, StatusEvent, WishlistEntry } from '../domain/types.ts';
+import { httpUrl, s, type Result, type Schema } from '../domain/schema.ts';
+import type { CollectionEntry, CustomImage, Item, Photo, Series, Settings, StatusEvent, WishlistEntry } from '../domain/types.ts';
 import { DEFAULT_SETTINGS } from '../domain/types.ts';
 import { collectionEntrySchema, itemSchema, seriesSchema, statusEventSchema, wishlistEntrySchema } from '../domain/validators.ts';
 import { DATA_VERSION } from '../db/migrations.ts';
@@ -23,6 +23,7 @@ export interface BackupFile {
   wishlist: WishlistEntry[];
   status_history: StatusEvent[];
   local_catalog: { series: Series[]; items: Item[] };
+  custom_images: CustomImage[];
   settings: Partial<Settings> | null;
 }
 
@@ -57,11 +58,12 @@ const backupSchema: Schema<BackupFile> = s.object<BackupFile>({
   wishlist: s.optional(s.array(wishlistEntrySchema, { max: 100000 }), []),
   status_history: s.optional(s.array(statusEventSchema, { max: 500000 }), []),
   local_catalog: s.optional(s.object({ series: s.array(seriesSchema), items: s.array(itemSchema) }), { series: [], items: [] }),
+  custom_images: s.optional(s.array(s.object<CustomImage>({ item_id: s.string({ min: 1, max: 160 }), url: httpUrl, updated_at: s.string({ max: 40 }) }), { max: 100000 }), []),
   settings: s.optional(s.nullable(settingsSchema), null),
 });
 
 export async function createBackup(db: Database, scope: BackupScope, appVersion: string): Promise<BackupFile> {
-  return db.read(['collection', 'wishlist', 'statusHistory', 'items', 'series', 'settings'], async (tx) => {
+  return db.read(['collection', 'wishlist', 'statusHistory', 'items', 'series', 'settings', 'customImages'], async (tx) => {
     const wantCollection = scope === 'all' || scope === 'collection';
     const wantWishlist = scope === 'all' || scope === 'wishlist';
     const settings = await tx.get<Settings>('settings', 'settings');
@@ -82,6 +84,7 @@ export async function createBackup(db: Database, scope: BackupScope, appVersion:
               items: (await tx.getAll<Item>('items')).filter((x) => x.origin === 'local'),
             }
           : { series: [], items: [] },
+      custom_images: scope === 'all' ? await tx.getAll<CustomImage>('customImages') : [],
       settings: scope === 'all' && settings ? { theme: settings.theme, display_currency: settings.display_currency, hide_values: settings.hide_values, profile: settings.profile } : null,
     };
   });
@@ -202,7 +205,7 @@ interface Snapshot {
   settings: Settings | null;
 }
 
-const PERSONAL = ['collection', 'wishlist', 'statusHistory', 'items', 'series', 'settings', 'meta'] as const;
+const PERSONAL = ['collection', 'wishlist', 'statusHistory', 'items', 'series', 'settings', 'meta', 'customImages'] as const;
 
 /**
  * Applies an already-validated backup in one transaction. A copy of the data
@@ -250,6 +253,10 @@ export async function applyImport(db: Database, b: BackupFile, mode: ImportMode)
     for (const e of b.status_history) if (mode === 'replace' || !curHist.has(e.id)) await tx.put('statusHistory', e);
     for (const se of b.local_catalog.series) if (!curSeries.has(se.id)) await tx.put('series', se);
     for (const it of b.local_catalog.items) if (!curItems.has(it.id)) await tx.put('items', it);
+    for (const im of b.custom_images) {
+      const cur = await tx.get<CustomImage>('customImages', im.item_id);
+      if (!cur || im.updated_at > cur.updated_at) await tx.put('customImages', im);
+    }
     if (b.settings && (mode === 'replace' || !cur.settings)) {
       await tx.put('settings', { ...DEFAULT_SETTINGS, ...cur.settings, ...b.settings, key: 'settings' });
     }

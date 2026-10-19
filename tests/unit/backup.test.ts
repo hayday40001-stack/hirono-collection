@@ -78,3 +78,16 @@ test('duplicate ids inside a backup file are rejected', async () => {
   b.collection.push({ ...b.collection[0] });
   assert.equal(parseBackup(JSON.stringify(b)).ok, false);
 });
+
+test('pasted image links are backed up and restored', async () => {
+  const { imageRepo } = await import('../../src/repositories/settingsRepo.ts');
+  const a = await seededDb();
+  await imageRepo(a.db).set('hirono-echo-knight', 'https://example.com/knight.jpg');
+  await assert.rejects(() => imageRepo(a.db).set('hirono-echo-knight', 'javascript:alert(1)'));
+  const text = JSON.stringify(await createBackup(a.db, 'all', 'test'));
+  const b = await seededDb();
+  const parsed = parseBackup(text);
+  assert.ok(parsed.ok);
+  if (parsed.ok) await applyImport(b.db, parsed.value, 'merge');
+  assert.equal((await imageRepo(b.db).list())[0]?.url, 'https://example.com/knight.jpg');
+});
