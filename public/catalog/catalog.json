@@ -1,0 +1,5188 @@
+{
+ "schema_version": 1,
+ "catalog_version": "2026.10.19-1",
+ "generated_at": "2026-10-19T13:00:00Z",
+ "last_verified_at": "2026-10-19",
+ "coverage": {
+  "total_universe_known": false,
+  "notes": "Coverage is partial. POP MART lists more HIRONO products (accessories, mugs, lights, phone cases and older releases) than this catalog includes. Items are added only with a source."
+ },
+ "sources": [
+  {
+   "id": "pm-other-one",
+   "title": "HIRONO The Other One Series — product page",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/739/hirono-the-other-one-series",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-little-mischief",
+   "title": "HIRONO Little Mischief Series — product page",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/13/hirono-little-mischief-series",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-mime",
+   "title": "HIRONO Mime Series Figures — product page",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/365/hirono-mime-series-figures",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-reshape",
+   "title": "HIRONO Reshape Series Figures — product page",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/867/hirono-reshape-series-figures",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-shelter",
+   "title": "Hirono Shelter Series Figures — product page",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/1385/hirono-shelter-series-figures",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-petit-prince",
+   "title": "Hirono × Le Petit Prince Series Figures — product page",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/1604/hirono-%C3%97-le-petit-prince-series-figures",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-echo",
+   "title": "Hirono Echo Series Figures — product page",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/2165/hirono-echo-series-figures",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-monsters",
+   "title": "Hirono Monsters' Carnival Series Figures — product page",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/3944/hirono-monsters'-carnival-series-figures",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-wildgrass",
+   "title": "Hirono Tamed Wildgrass Series Figures — product page",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/6071/hirono-tamed-wildgrass-series-figures",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": "Page gives series name, date, size and material but no style list."
+  },
+  {
+   "id": "pm-road-journal",
+   "title": "Hirono Road Journal Series — Plush Doll Pendant Blind Box",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/5166/hirono-road-journal-series-plush-doll-pendant-blind-box",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-mist-walker",
+   "title": "Hirono Mist-Walker Series — Plush Doll Pendant",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/8247/hirono-mist-walker-series---plush-doll-pendant",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-after-dark",
+   "title": "Hirono After Dark Series Plush Doll Pendant",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/8754/hirono-after-dark-series-plush-doll-pendant",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-harry-potter",
+   "title": "Hirono × Harry Potter Series Figures — product page",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/9119/hirono-%C3%97-harry-potter-series-figures",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-snoopy",
+   "title": "Hirono × Snoopy Figure",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/2160/hirono-%C3%97-snoopy-figure",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-aliens",
+   "title": "Hirono Search for Aliens Figurine",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/3457/hirono-search-for-aliens-figurine",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-living-wild",
+   "title": "Hirono Living Wild-Fight for Joy Plush Doll",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/2883/hirono-living-wild-fight-for-joy-plush-doll",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-chucky",
+   "title": "Hirono × Chucky Figurine",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/5584/hirono-%C3%97-chucky-figurine",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-little-hare",
+   "title": "Hirono Little Hare Plush Doll Pendant",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/6070/hirono-little-hare-plush-doll-pendant",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-behind-time",
+   "title": "Hirono Behind Time Figure",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/6267/hirono-behind-time-figure",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-leah-dou",
+   "title": "Hirono × Leah Dou In the Air Figurine",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/7883/hirono-%C3%97-leah-dou-in-the-air-figurine",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-kodak",
+   "title": "Hirono × Kodak Click Bear Plush Doll Pendant",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/8426/hirono-%C3%97-kodak-click-bear-plush-doll-pendant",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-dino",
+   "title": "Hirono Dino Plush Doll Pendant",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/8685/hirono-dino-plush-doll-pendant",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-hundreds-figure",
+   "title": "Hirono × The Hundreds Figure",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/products/8750/hirono-%C3%97-the-hundreds-figure",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": ""
+  },
+  {
+   "id": "pm-search",
+   "title": "POP MART US search results for “HIRONO”",
+   "source_type": "OFFICIAL_POPMART",
+   "publisher": "POP MART US",
+   "url": "https://www.popmart.com/us/search/HIRONO",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": "Listing page. Confirms product names only; no dates or specs."
+  },
+  {
+   "id": "toysez-chronology",
+   "title": "Hirono Series List & Full Chronology",
+   "source_type": "COLLECTOR_REFERENCE",
+   "publisher": "Toysez",
+   "url": "https://toysez.com/collections/hirono-series-list-full-chronology",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": "Retailer chronology. Gives series titles and years only; part of the list is behind “Load More”."
+  },
+  {
+   "id": "shelfd-101",
+   "title": "Hirono 101: A Complete Guide to Every Series",
+   "source_type": "COLLECTOR_REFERENCE",
+   "publisher": "Shelfd",
+   "url": "https://getshelfd.app/guides/hirono-101",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": "Collector guide. Partial figure names for some series."
+  },
+  {
+   "id": "hironoworld-mercy",
+   "title": "Hirono City of Mercy Series",
+   "source_type": "SECONDARY",
+   "publisher": "Hirono World (fan blog)",
+   "url": "https://hironoworld.com/series/hirono-city-of-mercy-series/",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": "Fan blog with no citations. Needs an official source."
+  },
+  {
+   "id": "stockx-clot",
+   "title": "Pop Mart Hirono x CLOT Series (Gift Box Edition) Figure",
+   "source_type": "SECONDARY",
+   "publisher": "StockX (resale listing)",
+   "url": "https://stockx.com/pop-mart-hirono-x-clot-series-gift-box-edition-figure",
+   "published_at": null,
+   "accessed_at": "2026-10-19",
+   "notes": "Resale listing. Confirms the product exists on the secondary market only."
+  }
+ ],
+ "series": [
+  {
+   "id": "series-the-other-one",
+   "slug": "the-other-one",
+   "name_en": "HIRONO The Other One Series",
+   "name_th": null,
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "series_type": "MAIN_BLIND_BOX",
+   "product_kind": "Blind box figures",
+   "description": "The first HIRONO blind box series. Figures about 8 cm (3.1 in) tall, ABS/PVC.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_OFFICIAL",
+   "roster_status": "COMPLETE",
+   "declared_count": {
+    "regular": 12,
+    "secret": 1
+   },
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Series name, launch date and the 13 style names"
+    }
+   ],
+   "conflicts": [],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-little-mischief",
+   "slug": "little-mischief",
+   "name_en": "HIRONO Little Mischief Series",
+   "name_th": null,
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "series_type": "MAIN_BLIND_BOX",
+   "product_kind": "Blind box figures",
+   "description": "Figures 2.3–4.1 in tall, ABS/PVC.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_OFFICIAL",
+   "roster_status": "COMPLETE",
+   "declared_count": {
+    "regular": 12,
+    "secret": 1
+   },
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Series name, launch date and the 13 style names"
+    }
+   ],
+   "conflicts": [
+    "Release date is the date shown on POP MART US; Toysez lists the series under 2022, which agrees."
+   ],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-mime",
+   "slug": "mime",
+   "name_en": "HIRONO Mime Series",
+   "name_th": null,
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "series_type": "MAIN_BLIND_BOX",
+   "product_kind": "Blind box figures",
+   "description": "Figures 2.1–3.9 in tall; some styles include hardware and a battery.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_OFFICIAL",
+   "roster_status": "COMPLETE",
+   "declared_count": {
+    "regular": 12,
+    "secret": 1
+   },
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Series name, launch date and the 13 style names"
+    },
+    {
+     "source_id": "shelfd-101",
+     "confirms": "Secret figure is Silent"
+    }
+   ],
+   "conflicts": [
+    "The official page lists 13 style names but does not mark which one is the secret. Shelfd names Silent as the secret."
+   ],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-reshape",
+   "slug": "reshape",
+   "name_en": "HIRONO Reshape Series",
+   "name_th": null,
+   "release_year": 2023,
+   "release_date": "2023-12-29",
+   "series_type": "MAIN_BLIND_BOX",
+   "product_kind": "Blind box figures",
+   "description": "Nine regular styles plus a secret. Figures 3.39–4.06 in tall, PVC/ABS.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_OFFICIAL",
+   "roster_status": "COMPLETE",
+   "declared_count": {
+    "regular": 9,
+    "secret": 1
+   },
+   "sources": [
+    {
+     "source_id": "pm-reshape",
+     "confirms": "Series name, launch date and the 10 style names"
+    }
+   ],
+   "conflicts": [],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-shelter",
+   "slug": "shelter",
+   "name_en": "Hirono Shelter Series",
+   "name_th": null,
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "series_type": "MAIN_BLIND_BOX",
+   "product_kind": "Blind box figures",
+   "description": "Figures 6–10 cm, ABS/PVC with magnets.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_OFFICIAL",
+   "roster_status": "COMPLETE",
+   "declared_count": {
+    "regular": 12,
+    "secret": 1
+   },
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Series name, launch date and the 13 style names"
+    }
+   ],
+   "conflicts": [],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-le-petit-prince",
+   "slug": "le-petit-prince",
+   "name_en": "Hirono × Le Petit Prince Series",
+   "name_th": null,
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "series_type": "COLLABORATION",
+   "product_kind": "Blind box figures",
+   "description": "Collaboration with Le Petit Prince. Figures 8–12 cm.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "roster_status": "COMPLETE",
+   "declared_count": {
+    "regular": 12,
+    "secret": 2
+   },
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Series name, launch date and the 14 style names"
+    },
+    {
+     "source_id": "toysez-chronology",
+     "confirms": "Release year 2024"
+    }
+   ],
+   "conflicts": [
+    "The official page shows the launch day (October 25) without a year; the year 2024 comes from the Toysez chronology."
+   ],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-echo",
+   "slug": "echo",
+   "name_en": "Hirono Echo Series",
+   "name_th": null,
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "series_type": "MAIN_BLIND_BOX",
+   "product_kind": "Blind box figures",
+   "description": "Figures 6–9 cm; some styles include electronic components.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_OFFICIAL",
+   "roster_status": "COMPLETE",
+   "declared_count": {
+    "regular": 12,
+    "secret": 1
+   },
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Series name, launch date and the 13 style names"
+    }
+   ],
+   "conflicts": [],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-monsters-carnival",
+   "slug": "monsters-carnival",
+   "name_en": "Hirono Monsters' Carnival Series",
+   "name_th": null,
+   "release_year": 2025,
+   "release_date": "2025-10-16",
+   "series_type": "MAIN_BLIND_BOX",
+   "product_kind": "Blind box figures",
+   "description": "Halloween-themed series. Figures 6–9 cm.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_OFFICIAL",
+   "roster_status": "COMPLETE",
+   "declared_count": {
+    "regular": 6,
+    "secret": 1
+   },
+   "sources": [
+    {
+     "source_id": "pm-monsters",
+     "confirms": "Series name, launch date and the 7 style names"
+    }
+   ],
+   "conflicts": [],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-road-journal",
+   "slug": "road-journal",
+   "name_en": "Hirono Road Journal Series — Plush Doll Pendant",
+   "name_th": null,
+   "release_year": 2025,
+   "release_date": "2025-12-18",
+   "series_type": "PLUSH_ACCESSORY",
+   "product_kind": "Plush doll pendant blind box",
+   "description": "Plush pendants about 15.5 cm excluding the loop.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_OFFICIAL",
+   "roster_status": "COMPLETE",
+   "declared_count": {
+    "regular": 6,
+    "secret": 1
+   },
+   "sources": [
+    {
+     "source_id": "pm-road-journal",
+     "confirms": "Series name, launch date and the 7 style names"
+    }
+   ],
+   "conflicts": [],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-after-dark",
+   "slug": "after-dark",
+   "name_en": "Hirono After Dark Series — Plush Doll Pendant",
+   "name_th": null,
+   "release_year": 2026,
+   "release_date": "2026-09-03",
+   "series_type": "PLUSH_ACCESSORY",
+   "product_kind": "Plush doll pendant",
+   "description": "Plush pendants about 17 cm tall.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_OFFICIAL",
+   "roster_status": "COMPLETE",
+   "declared_count": {
+    "regular": 6,
+    "secret": 1
+   },
+   "sources": [
+    {
+     "source_id": "pm-after-dark",
+     "confirms": "Series name, launch date and the 7 style names"
+    }
+   ],
+   "conflicts": [],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-harry-potter",
+   "slug": "harry-potter",
+   "name_en": "Hirono × Harry Potter Series",
+   "name_th": null,
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "series_type": "COLLABORATION",
+   "product_kind": "Blind box figures",
+   "description": "Collaboration with Harry Potter. Figures 7.8–10.6 cm.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_OFFICIAL",
+   "roster_status": "COMPLETE",
+   "declared_count": {
+    "regular": 12,
+    "secret": 2
+   },
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Series name, launch date and the 14 style names"
+    }
+   ],
+   "conflicts": [],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-mist-walker",
+   "slug": "mist-walker",
+   "name_en": "Hirono Mist-Walker Series — Plush Doll Pendant",
+   "name_th": null,
+   "release_year": 2026,
+   "release_date": "2026-07-23",
+   "series_type": "PLUSH_ACCESSORY",
+   "product_kind": "Plush doll pendant",
+   "description": "Plush pendants about 15.5 cm excluding the loop.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_OFFICIAL",
+   "roster_status": "COMPLETE",
+   "declared_count": {
+    "regular": 7,
+    "secret": 0
+   },
+   "sources": [
+    {
+     "source_id": "pm-mist-walker",
+     "confirms": "Series name, launch date and 7 style names"
+    }
+   ],
+   "conflicts": [
+    "The official page lists 7 styles and does not identify a secret. Treat every style as regular until confirmed."
+   ],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-tamed-wildgrass",
+   "slug": "tamed-wildgrass",
+   "name_en": "Hirono Tamed Wildgrass Series",
+   "name_th": null,
+   "release_year": 2026,
+   "release_date": "2026-04-02",
+   "series_type": "MAIN_BLIND_BOX",
+   "product_kind": "Blind box figures",
+   "description": "Figures 7–11 cm. The full style list has not been verified yet.",
+   "cover_image": null,
+   "verification_status": "VERIFIED_OFFICIAL",
+   "roster_status": "PARTIAL",
+   "declared_count": {
+    "regular": null,
+    "secret": null
+   },
+   "sources": [
+    {
+     "source_id": "pm-wildgrass",
+     "confirms": "Series name, launch date, size and material"
+    },
+    {
+     "source_id": "shelfd-101",
+     "confirms": "Three figure names"
+    }
+   ],
+   "conflicts": [
+    "The official page does not list styles. Only three names are known, from a collector guide."
+   ],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-city-of-mercy",
+   "slug": "city-of-mercy",
+   "name_en": "Hirono City of Mercy Series",
+   "name_th": null,
+   "release_year": 2022,
+   "release_date": null,
+   "series_type": "MAIN_BLIND_BOX",
+   "product_kind": "Blind box figures",
+   "description": "Listed in collector chronologies. No official product page has been found yet.",
+   "cover_image": null,
+   "verification_status": "UNVERIFIED",
+   "roster_status": "UNKNOWN",
+   "declared_count": {
+    "regular": null,
+    "secret": null
+   },
+   "sources": [
+    {
+     "source_id": "toysez-chronology",
+     "confirms": "Series listed under 2022"
+    },
+    {
+     "source_id": "hironoworld-mercy",
+     "confirms": "Figure names (fan blog, uncited)"
+    }
+   ],
+   "conflicts": [
+    "No official source found. Figure names come from an uncited fan blog."
+   ],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "series-clot",
+   "slug": "clot",
+   "name_en": "Hirono × CLOT Series",
+   "name_th": null,
+   "release_year": 2024,
+   "release_date": null,
+   "series_type": "COLLABORATION",
+   "product_kind": "Blind box figures",
+   "description": "Collaboration with streetwear brand CLOT. The style list has not been verified, so no figures are listed yet.",
+   "cover_image": null,
+   "verification_status": "UNVERIFIED",
+   "roster_status": "UNKNOWN",
+   "declared_count": {
+    "regular": null,
+    "secret": null
+   },
+   "sources": [
+    {
+     "source_id": "toysez-chronology",
+     "confirms": "Series listed under 2024"
+    },
+    {
+     "source_id": "stockx-clot",
+     "confirms": "Gift box edition sold on the resale market"
+    }
+   ],
+   "conflicts": [
+    "No official product page found. Add styles once a reliable source is available."
+   ],
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  }
+ ],
+ "items": [
+  {
+   "id": "hirono-the-other-one-the-ghost",
+   "slug": "the-ghost",
+   "name_en": "The Ghost",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-the-other-one-nowhere-safe",
+   "slug": "nowhere-safe",
+   "name_en": "Nowhere Safe",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-the-other-one-raving",
+   "slug": "raving",
+   "name_en": "Raving",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-the-other-one-marionette",
+   "slug": "marionette",
+   "name_en": "Marionette",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-the-other-one-staring",
+   "slug": "staring",
+   "name_en": "Staring",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-the-other-one-amnesia",
+   "slug": "amnesia",
+   "name_en": "Amnesia",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-the-other-one-the-crow",
+   "slug": "the-crow",
+   "name_en": "The Crow",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-the-other-one-vagrancy",
+   "slug": "vagrancy",
+   "name_en": "Vagrancy",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-the-other-one-being-alive",
+   "slug": "being-alive",
+   "name_en": "Being Alive",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-the-other-one-cuckoo",
+   "slug": "cuckoo",
+   "name_en": "Cuckoo",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-the-other-one-the-monster",
+   "slug": "the-monster",
+   "name_en": "The Monster",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-the-other-one-the-fox",
+   "slug": "the-fox",
+   "name_en": "The Fox",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-the-other-one-dreaming",
+   "slug": "dreaming",
+   "name_en": "Dreaming",
+   "name_th": null,
+   "series_id": "series-the-other-one",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2021,
+   "release_date": "2021-10-01",
+   "edition_type": "SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-other-one",
+     "confirms": "Style name and secret label on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-ragpicker",
+   "slug": "ragpicker",
+   "name_en": "Ragpicker",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-destroyer",
+   "slug": "destroyer",
+   "name_en": "Destroyer",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-robot",
+   "slug": "robot",
+   "name_en": "Robot",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-boiling-frog",
+   "slug": "boiling-frog",
+   "name_en": "Boiling Frog",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-float",
+   "slug": "float",
+   "name_en": "Float",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-the-aviator",
+   "slug": "the-aviator",
+   "name_en": "The Aviator",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-birdman",
+   "slug": "birdman",
+   "name_en": "Birdman",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-loose-fish",
+   "slug": "loose-fish",
+   "name_en": "Loose Fish",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-pretender",
+   "slug": "pretender",
+   "name_en": "Pretender",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-persona",
+   "slug": "persona",
+   "name_en": "Persona",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-manacle",
+   "slug": "manacle",
+   "name_en": "Manacle",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-protector",
+   "slug": "protector",
+   "name_en": "Protector",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-little-mischief-unknown-journey",
+   "slug": "unknown-journey",
+   "name_en": "Unknown Journey",
+   "name_th": null,
+   "series_id": "series-little-mischief",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": "2022-08-19",
+   "edition_type": "SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-mischief",
+     "confirms": "Style name and secret label on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-guardian",
+   "slug": "guardian",
+   "name_en": "Guardian",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-blind",
+   "slug": "blind",
+   "name_en": "Blind",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-seeker",
+   "slug": "seeker",
+   "name_en": "Seeker",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-devilry",
+   "slug": "devilry",
+   "name_en": "Devilry",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-drifter",
+   "slug": "drifter",
+   "name_en": "Drifter",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-fool",
+   "slug": "fool",
+   "name_en": "Fool",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-unspoken",
+   "slug": "unspoken",
+   "name_en": "Unspoken",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-patience",
+   "slug": "patience",
+   "name_en": "Patience",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-prison",
+   "slug": "prison",
+   "name_en": "Prison",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-destroy",
+   "slug": "destroy",
+   "name_en": "Destroy",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-poem",
+   "slug": "poem",
+   "name_en": "Poem",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-secrecy",
+   "slug": "secrecy",
+   "name_en": "Secrecy",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mime-silent",
+   "slug": "silent",
+   "name_en": "Silent",
+   "name_th": null,
+   "series_id": "series-mime",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-07-14",
+   "edition_type": "SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-mime",
+     "confirms": "Style name listed on the official page"
+    },
+    {
+     "source_id": "shelfd-101",
+     "confirms": "Identifies Silent as the secret"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-reshape-drowning",
+   "slug": "drowning",
+   "name_en": "Drowning",
+   "name_th": null,
+   "series_id": "series-reshape",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-12-29",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-reshape",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-reshape-fading",
+   "slug": "fading",
+   "name_en": "Fading",
+   "name_th": null,
+   "series_id": "series-reshape",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-12-29",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-reshape",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-reshape-costume",
+   "slug": "costume",
+   "name_en": "Costume",
+   "name_th": null,
+   "series_id": "series-reshape",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-12-29",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-reshape",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-reshape-voyage",
+   "slug": "voyage",
+   "name_en": "Voyage",
+   "name_th": null,
+   "series_id": "series-reshape",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-12-29",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-reshape",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-reshape-burst",
+   "slug": "burst",
+   "name_en": "Burst",
+   "name_th": null,
+   "series_id": "series-reshape",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-12-29",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-reshape",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-reshape-paradise-lost",
+   "slug": "paradise-lost",
+   "name_en": "Paradise Lost",
+   "name_th": null,
+   "series_id": "series-reshape",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-12-29",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-reshape",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-reshape-parasite",
+   "slug": "parasite",
+   "name_en": "Parasite",
+   "name_th": null,
+   "series_id": "series-reshape",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-12-29",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-reshape",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-reshape-healing",
+   "slug": "healing",
+   "name_en": "Healing",
+   "name_th": null,
+   "series_id": "series-reshape",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-12-29",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-reshape",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-reshape-woodcarving",
+   "slug": "woodcarving",
+   "name_en": "Woodcarving",
+   "name_th": null,
+   "series_id": "series-reshape",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-12-29",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-reshape",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-reshape-puppet",
+   "slug": "puppet",
+   "name_en": "Puppet",
+   "name_th": null,
+   "series_id": "series-reshape",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2023,
+   "release_date": "2023-12-29",
+   "edition_type": "SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-reshape",
+     "confirms": "Style name and secret label on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-candleholder",
+   "slug": "candleholder",
+   "name_en": "Candleholder",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-mantel-clock",
+   "slug": "mantel-clock",
+   "name_en": "Mantel Clock",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-poet",
+   "slug": "poet",
+   "name_en": "Poet",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-traffic-cone",
+   "slug": "traffic-cone",
+   "name_en": "Traffic Cone",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-fort",
+   "slug": "fort",
+   "name_en": "Fort",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-circus",
+   "slug": "circus",
+   "name_en": "Circus",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-cabin",
+   "slug": "cabin",
+   "name_en": "Cabin",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-birdy",
+   "slug": "birdy",
+   "name_en": "Birdy",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-alien",
+   "slug": "alien",
+   "name_en": "Alien",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-warrior",
+   "slug": "warrior",
+   "name_en": "Warrior",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-sunny-doll",
+   "slug": "sunny-doll",
+   "name_en": "Sunny Doll",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-birdcage",
+   "slug": "birdcage",
+   "name_en": "Birdcage",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-shelter-stuffed-bear",
+   "slug": "stuffed-bear",
+   "name_en": "Stuffed Bear",
+   "name_th": null,
+   "series_id": "series-shelter",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-07-19",
+   "edition_type": "SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-shelter",
+     "confirms": "Style name and secret label on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-king",
+   "slug": "the-king",
+   "name_en": "The King",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-conceited-man",
+   "slug": "the-conceited-man",
+   "name_en": "The Conceited Man",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-tippler",
+   "slug": "the-tippler",
+   "name_en": "The Tippler",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-businessman",
+   "slug": "the-businessman",
+   "name_en": "The Businessman",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-lamplighter",
+   "slug": "the-lamplighter",
+   "name_en": "The Lamplighter",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-geographer",
+   "slug": "the-geographer",
+   "name_en": "The Geographer",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-little-prince",
+   "slug": "the-little-prince",
+   "name_en": "The Little Prince",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-rose",
+   "slug": "the-rose",
+   "name_en": "The Rose",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-snake",
+   "slug": "the-snake",
+   "name_en": "The Snake",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-fox",
+   "slug": "the-fox",
+   "name_en": "The Fox",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-switchman",
+   "slug": "the-switchman",
+   "name_en": "The Switchman",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-merchant",
+   "slug": "the-merchant",
+   "name_en": "The Merchant",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-pilot",
+   "slug": "the-pilot",
+   "name_en": "The Pilot",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name and secret label on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-le-petit-prince-the-little-prince-special-edition",
+   "slug": "the-little-prince-special-edition",
+   "name_en": "The Little Prince, Special Edition",
+   "name_th": null,
+   "series_id": "series-le-petit-prince",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2024,
+   "release_date": "2024-10-25",
+   "edition_type": "SUPER_SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_CROSS_REFERENCED",
+   "sources": [
+    {
+     "source_id": "pm-petit-prince",
+     "confirms": "Style name and super secret label on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-hiding-behind-you",
+   "slug": "hiding-behind-you",
+   "name_en": "Hiding Behind You",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-daydreaming",
+   "slug": "daydreaming",
+   "name_en": "Daydreaming",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-journey-in-the-rain",
+   "slug": "journey-in-the-rain",
+   "name_en": "Journey in the Rain",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-get-lucky",
+   "slug": "get-lucky",
+   "name_en": "Get Lucky",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-back-off",
+   "slug": "back-off",
+   "name_en": "Back Off",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-breakout-plan",
+   "slug": "breakout-plan",
+   "name_en": "Breakout Plan",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-pieces-of-memory",
+   "slug": "pieces-of-memory",
+   "name_en": "Pieces of Memory",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-soul-connection",
+   "slug": "soul-connection",
+   "name_en": "Soul Connection",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-staying-up",
+   "slug": "staying-up",
+   "name_en": "Staying Up",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-knight",
+   "slug": "knight",
+   "name_en": "Knight",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-eaten",
+   "slug": "eaten",
+   "name_en": "Eaten",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-caught-you",
+   "slug": "caught-you",
+   "name_en": "Caught You",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-echo-never-growing-up",
+   "slug": "never-growing-up",
+   "name_en": "Never Growing Up",
+   "name_th": null,
+   "series_id": "series-echo",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-echo",
+     "confirms": "Style name and secret label on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-monsters-carnival-killer-bunny",
+   "slug": "killer-bunny",
+   "name_en": "Killer Bunny",
+   "name_th": null,
+   "series_id": "series-monsters-carnival",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-10-16",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-monsters",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-monsters-carnival-zombie",
+   "slug": "zombie",
+   "name_en": "Zombie",
+   "name_th": null,
+   "series_id": "series-monsters-carnival",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-10-16",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-monsters",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-monsters-carnival-creepy-clown",
+   "slug": "creepy-clown",
+   "name_en": "Creepy Clown",
+   "name_th": null,
+   "series_id": "series-monsters-carnival",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-10-16",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-monsters",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-monsters-carnival-vampire",
+   "slug": "vampire",
+   "name_en": "Vampire",
+   "name_th": null,
+   "series_id": "series-monsters-carnival",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-10-16",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-monsters",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-monsters-carnival-grim-reaper",
+   "slug": "grim-reaper",
+   "name_en": "Grim Reaper",
+   "name_th": null,
+   "series_id": "series-monsters-carnival",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-10-16",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-monsters",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-monsters-carnival-doctor-beak",
+   "slug": "doctor-beak",
+   "name_en": "Doctor Beak",
+   "name_th": null,
+   "series_id": "series-monsters-carnival",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-10-16",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-monsters",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-monsters-carnival-the-disembodied",
+   "slug": "the-disembodied",
+   "name_en": "The Disembodied",
+   "name_th": null,
+   "series_id": "series-monsters-carnival",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2025,
+   "release_date": "2025-10-16",
+   "edition_type": "SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-monsters",
+     "confirms": "Style name and secret label on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-road-journal-woven-woods",
+   "slug": "woven-woods",
+   "name_en": "Woven Woods",
+   "name_th": null,
+   "series_id": "series-road-journal",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2025,
+   "release_date": "2025-12-18",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-road-journal",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-road-journal-city-dust-afloat",
+   "slug": "city-dust-afloat",
+   "name_en": "City Dust Afloat",
+   "name_th": null,
+   "series_id": "series-road-journal",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2025,
+   "release_date": "2025-12-18",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-road-journal",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-road-journal-grey-gravel",
+   "slug": "grey-gravel",
+   "name_en": "Grey Gravel",
+   "name_th": null,
+   "series_id": "series-road-journal",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2025,
+   "release_date": "2025-12-18",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-road-journal",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-road-journal-frostfall-hour",
+   "slug": "frostfall-hour",
+   "name_en": "Frostfall Hour",
+   "name_th": null,
+   "series_id": "series-road-journal",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2025,
+   "release_date": "2025-12-18",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-road-journal",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-road-journal-lost-in-the-night",
+   "slug": "lost-in-the-night",
+   "name_en": "Lost in the Night",
+   "name_th": null,
+   "series_id": "series-road-journal",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2025,
+   "release_date": "2025-12-18",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-road-journal",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-road-journal-into-fogwild",
+   "slug": "into-fogwild",
+   "name_en": "Into Fogwild",
+   "name_th": null,
+   "series_id": "series-road-journal",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2025,
+   "release_date": "2025-12-18",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-road-journal",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-road-journal-highway-imprint",
+   "slug": "highway-imprint",
+   "name_en": "Highway Imprint",
+   "name_th": null,
+   "series_id": "series-road-journal",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2025,
+   "release_date": "2025-12-18",
+   "edition_type": "SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-road-journal",
+     "confirms": "Style name and secret label on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-after-dark-masked",
+   "slug": "masked",
+   "name_en": "Masked",
+   "name_th": null,
+   "series_id": "series-after-dark",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-09-03",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-after-dark",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-after-dark-runaway",
+   "slug": "runaway",
+   "name_en": "Runaway",
+   "name_th": null,
+   "series_id": "series-after-dark",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-09-03",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-after-dark",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-after-dark-off-script",
+   "slug": "off-script",
+   "name_en": "Off Script",
+   "name_th": null,
+   "series_id": "series-after-dark",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-09-03",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-after-dark",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-after-dark-drifting-by",
+   "slug": "drifting-by",
+   "name_en": "Drifting By",
+   "name_th": null,
+   "series_id": "series-after-dark",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-09-03",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-after-dark",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-after-dark-hollow",
+   "slug": "hollow",
+   "name_en": "Hollow",
+   "name_th": null,
+   "series_id": "series-after-dark",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-09-03",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-after-dark",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-after-dark-upside-down",
+   "slug": "upside-down",
+   "name_en": "Upside Down",
+   "name_th": null,
+   "series_id": "series-after-dark",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-09-03",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-after-dark",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-after-dark-old-dream",
+   "slug": "old-dream",
+   "name_en": "Old Dream",
+   "name_th": null,
+   "series_id": "series-after-dark",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-09-03",
+   "edition_type": "SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-after-dark",
+     "confirms": "Style name and secret label on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-albus-dumbledore",
+   "slug": "albus-dumbledore",
+   "name_en": "Albus Dumbledore",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-rubeus-hagrid",
+   "slug": "rubeus-hagrid",
+   "name_en": "Rubeus Hagrid",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-harry-potter-and-the-sorting-hat",
+   "slug": "harry-potter-and-the-sorting-hat",
+   "name_en": "Harry Potter and The Sorting Hat",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-draco-malfoy",
+   "slug": "draco-malfoy",
+   "name_en": "Draco Malfoy",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-severus-snape",
+   "slug": "severus-snape",
+   "name_en": "Severus Snape",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-dobby",
+   "slug": "dobby",
+   "name_en": "Dobby",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-sirius-black",
+   "slug": "sirius-black",
+   "name_en": "Sirius Black",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-harry-potter-and-quidditch",
+   "slug": "harry-potter-and-quidditch",
+   "name_en": "Harry Potter and Quidditch",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-ron-weasley",
+   "slug": "ron-weasley",
+   "name_en": "Ron Weasley",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-luna-lovegood",
+   "slug": "luna-lovegood",
+   "name_en": "Luna Lovegood",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-harry-potter-and-hedwig",
+   "slug": "harry-potter-and-hedwig",
+   "name_en": "Harry Potter and Hedwig",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-lord-voldemort",
+   "slug": "lord-voldemort",
+   "name_en": "Lord Voldemort",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-mandrake",
+   "slug": "mandrake",
+   "name_en": "Mandrake",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name and secret label on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-harry-potter-harry-potter-special-edition",
+   "slug": "harry-potter-special-edition",
+   "name_en": "Harry Potter-Special Edition",
+   "name_th": null,
+   "series_id": "series-harry-potter",
+   "category": "COLLABORATION",
+   "subcategory": "Collaboration blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-10-08",
+   "edition_type": "SUPER_SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-harry-potter",
+     "confirms": "Style name and super secret label on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mist-walker-the-gap-glimmer-wanderer",
+   "slug": "the-gap-glimmer-wanderer",
+   "name_en": "The Gap-Glimmer Wanderer",
+   "name_th": null,
+   "series_id": "series-mist-walker",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-07-23",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mist-walker",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mist-walker-the-wingless-follower",
+   "slug": "the-wingless-follower",
+   "name_en": "The Wingless Follower",
+   "name_th": null,
+   "series_id": "series-mist-walker",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-07-23",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mist-walker",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mist-walker-the-unfallen-wing",
+   "slug": "the-unfallen-wing",
+   "name_en": "The Unfallen Wing",
+   "name_th": null,
+   "series_id": "series-mist-walker",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-07-23",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mist-walker",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mist-walker-the-primordial-grace",
+   "slug": "the-primordial-grace",
+   "name_en": "The Primordial Grace",
+   "name_th": null,
+   "series_id": "series-mist-walker",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-07-23",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mist-walker",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mist-walker-the-soul-corroder",
+   "slug": "the-soul-corroder",
+   "name_en": "The Soul Corroder",
+   "name_th": null,
+   "series_id": "series-mist-walker",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-07-23",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mist-walker",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mist-walker-the-backlit-messenger",
+   "slug": "the-backlit-messenger",
+   "name_en": "The Backlit Messenger",
+   "name_th": null,
+   "series_id": "series-mist-walker",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-07-23",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mist-walker",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-mist-walker-the-tempered-aegis",
+   "slug": "the-tempered-aegis",
+   "name_en": "The Tempered Aegis",
+   "name_th": null,
+   "series_id": "series-mist-walker",
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-07-23",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-mist-walker",
+     "confirms": "Style name listed on the official page"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-tamed-wildgrass-sisyphean-work",
+   "slug": "sisyphean-work",
+   "name_en": "Sisyphean Work",
+   "name_th": null,
+   "series_id": "series-tamed-wildgrass",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-04-02",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "UNVERIFIED",
+   "sources": [
+    {
+     "source_id": "shelfd-101",
+     "confirms": "Figure name mentioned in guide"
+    }
+   ],
+   "conflicts": [
+    "Not yet confirmed by an official source."
+   ],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-tamed-wildgrass-overload",
+   "slug": "overload",
+   "name_en": "Overload",
+   "name_th": null,
+   "series_id": "series-tamed-wildgrass",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-04-02",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "UNVERIFIED",
+   "sources": [
+    {
+     "source_id": "shelfd-101",
+     "confirms": "Figure name mentioned in guide"
+    }
+   ],
+   "conflicts": [
+    "Not yet confirmed by an official source."
+   ],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-tamed-wildgrass-digital-bind",
+   "slug": "digital-bind",
+   "name_en": "Digital Bind",
+   "name_th": null,
+   "series_id": "series-tamed-wildgrass",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2026,
+   "release_date": "2026-04-02",
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "UNVERIFIED",
+   "sources": [
+    {
+     "source_id": "shelfd-101",
+     "confirms": "Figure name mentioned in guide"
+    }
+   ],
+   "conflicts": [
+    "Not yet confirmed by an official source."
+   ],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-city-of-mercy-fallen-angel",
+   "slug": "fallen-angel",
+   "name_en": "Fallen Angel",
+   "name_th": null,
+   "series_id": "series-city-of-mercy",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": null,
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "UNVERIFIED",
+   "sources": [
+    {
+     "source_id": "hironoworld-mercy",
+     "confirms": "Figure name"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-city-of-mercy-comfortably-numb",
+   "slug": "comfortably-numb",
+   "name_en": "Comfortably Numb",
+   "name_th": null,
+   "series_id": "series-city-of-mercy",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": null,
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "UNVERIFIED",
+   "sources": [
+    {
+     "source_id": "hironoworld-mercy",
+     "confirms": "Figure name"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-city-of-mercy-healer",
+   "slug": "healer",
+   "name_en": "Healer",
+   "name_th": null,
+   "series_id": "series-city-of-mercy",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": null,
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "UNVERIFIED",
+   "sources": [
+    {
+     "source_id": "hironoworld-mercy",
+     "confirms": "Figure name"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-city-of-mercy-insight",
+   "slug": "insight",
+   "name_en": "Insight",
+   "name_th": null,
+   "series_id": "series-city-of-mercy",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": null,
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "UNVERIFIED",
+   "sources": [
+    {
+     "source_id": "hironoworld-mercy",
+     "confirms": "Figure name"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-city-of-mercy-the-other",
+   "slug": "the-other",
+   "name_en": "The Other",
+   "name_th": null,
+   "series_id": "series-city-of-mercy",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": null,
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "UNVERIFIED",
+   "sources": [
+    {
+     "source_id": "hironoworld-mercy",
+     "confirms": "Figure name"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-city-of-mercy-echo",
+   "slug": "echo",
+   "name_en": "Echo",
+   "name_th": null,
+   "series_id": "series-city-of-mercy",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": null,
+   "edition_type": "REGULAR",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "UNVERIFIED",
+   "sources": [
+    {
+     "source_id": "hironoworld-mercy",
+     "confirms": "Figure name"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-city-of-mercy-belonging",
+   "slug": "belonging",
+   "name_en": "Belonging",
+   "name_th": null,
+   "series_id": "series-city-of-mercy",
+   "category": "MAIN_BLIND_BOX",
+   "subcategory": "Blind box figure",
+   "release_year": 2022,
+   "release_date": null,
+   "edition_type": "SECRET",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "UNVERIFIED",
+   "sources": [
+    {
+     "source_id": "hironoworld-mercy",
+     "confirms": "Figure name and secret status"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-hirono-x-snoopy-figure",
+   "slug": "hirono-x-snoopy-figure",
+   "name_en": "Hirono × Snoopy Figure",
+   "name_th": null,
+   "series_id": null,
+   "category": "COLLABORATION",
+   "subcategory": "Single figure",
+   "release_year": 2025,
+   "release_date": "2025-04-11",
+   "edition_type": "SINGLE",
+   "rarity": null,
+   "product_code": null,
+   "description": "7.5 cm, PVC/ABS/hardware.",
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-snoopy",
+     "confirms": "Product name, launch date and specs"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-hirono-living-wild-fight-for-joy-plush-doll",
+   "slug": "hirono-living-wild-fight-for-joy-plush-doll",
+   "name_en": "Hirono Living Wild-Fight for Joy Plush Doll",
+   "name_th": null,
+   "series_id": null,
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll",
+   "release_year": 2025,
+   "release_date": "2025-06-27",
+   "edition_type": "SINGLE",
+   "rarity": null,
+   "product_code": null,
+   "description": "16 cm plush doll.",
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-living-wild",
+     "confirms": "Product name, launch date and specs"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-hirono-search-for-aliens-figurine",
+   "slug": "hirono-search-for-aliens-figurine",
+   "name_en": "Hirono Search for Aliens Figurine",
+   "name_th": null,
+   "series_id": null,
+   "category": "LARGE_FIGURE",
+   "subcategory": "Large figurine",
+   "release_year": 2025,
+   "release_date": "2025-08-28",
+   "edition_type": "SINGLE",
+   "rarity": null,
+   "product_code": null,
+   "description": "18 cm figurine with electronic components.",
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-aliens",
+     "confirms": "Product name, launch date and specs"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-hirono-x-chucky-figurine",
+   "slug": "hirono-x-chucky-figurine",
+   "name_en": "Hirono × Chucky Figurine",
+   "name_th": null,
+   "series_id": null,
+   "category": "COLLABORATION",
+   "subcategory": "Single figurine",
+   "release_year": 2025,
+   "release_date": "2025-12-25",
+   "edition_type": "SINGLE",
+   "rarity": null,
+   "product_code": null,
+   "description": "16 cm, PVC/ABS/hardware.",
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-chucky",
+     "confirms": "Product name, launch date and specs"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-hirono-little-hare-plush-doll-pendant",
+   "slug": "hirono-little-hare-plush-doll-pendant",
+   "name_en": "Hirono Little Hare Plush Doll Pendant",
+   "name_th": null,
+   "series_id": null,
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-04-02",
+   "edition_type": "SINGLE",
+   "rarity": null,
+   "product_code": null,
+   "description": "23 cm plush pendant.",
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-little-hare",
+     "confirms": "Product name, launch date and specs"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-hirono-behind-time-figure",
+   "slug": "hirono-behind-time-figure",
+   "name_en": "Hirono Behind Time Figure",
+   "name_th": null,
+   "series_id": null,
+   "category": "OTHER",
+   "subcategory": "Single figure",
+   "release_year": 2026,
+   "release_date": "2026-06-04",
+   "edition_type": "SINGLE",
+   "rarity": null,
+   "product_code": null,
+   "description": "12 cm, ABS/PVC with an electronic component.",
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-behind-time",
+     "confirms": "Product name, launch date and specs"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-hirono-x-leah-dou-in-the-air-figurine",
+   "slug": "hirono-x-leah-dou-in-the-air-figurine",
+   "name_en": "Hirono × Leah Dou In the Air Figurine",
+   "name_th": null,
+   "series_id": null,
+   "category": "COLLABORATION",
+   "subcategory": "Artist collaboration figurine",
+   "release_year": 2026,
+   "release_date": "2026-06-25",
+   "edition_type": "SINGLE",
+   "rarity": null,
+   "product_code": null,
+   "description": "About 20 cm, ABS/PVC/metal/polyester.",
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-leah-dou",
+     "confirms": "Product name, launch date and specs"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-hirono-x-kodak-click-bear-plush-doll-pendant",
+   "slug": "hirono-x-kodak-click-bear-plush-doll-pendant",
+   "name_en": "Hirono × Kodak Click Bear Plush Doll Pendant",
+   "name_th": null,
+   "series_id": null,
+   "category": "COLLABORATION",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-08-06",
+   "edition_type": "SINGLE",
+   "rarity": null,
+   "product_code": null,
+   "description": "15.5 cm excluding the loop.",
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-kodak",
+     "confirms": "Product name, launch date and specs"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-hirono-dino-plush-doll-pendant",
+   "slug": "hirono-dino-plush-doll-pendant",
+   "name_en": "Hirono Dino Plush Doll Pendant",
+   "name_th": null,
+   "series_id": null,
+   "category": "PLUSH_ACCESSORY",
+   "subcategory": "Plush doll pendant",
+   "release_year": 2026,
+   "release_date": "2026-08-27",
+   "edition_type": "SINGLE",
+   "rarity": null,
+   "product_code": null,
+   "description": "About 18 cm excluding the ring.",
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-dino",
+     "confirms": "Product name, launch date and specs"
+    }
+   ],
+   "conflicts": [],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-hirono-x-the-hundreds-figure",
+   "slug": "hirono-x-the-hundreds-figure",
+   "name_en": "Hirono × The Hundreds Figure",
+   "name_th": null,
+   "series_id": null,
+   "category": "COLLABORATION",
+   "subcategory": "Single figure",
+   "release_year": 2026,
+   "release_date": "2026-09-03",
+   "edition_type": "SINGLE",
+   "rarity": null,
+   "product_code": null,
+   "description": "9.5 cm, PVC/ABS.",
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-hundreds-figure",
+     "confirms": "Product name, launch date and specs"
+    }
+   ],
+   "conflicts": [
+    "The page description calls it a limited crossover but gives no edition size, so it is not marked as Limited Edition here."
+   ],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-hirono-x-the-hundreds-pendant",
+   "slug": "hirono-x-the-hundreds-pendant",
+   "name_en": "Hirono × The Hundreds Pendant",
+   "name_th": null,
+   "series_id": null,
+   "category": "COLLABORATION",
+   "subcategory": "Pendant",
+   "release_year": null,
+   "release_date": null,
+   "edition_type": "SINGLE",
+   "rarity": null,
+   "product_code": null,
+   "description": null,
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-search",
+     "confirms": "Product name"
+    }
+   ],
+   "conflicts": [
+    "Launch date and specs not yet recorded."
+   ],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  },
+  {
+   "id": "hirono-hirono-x-polar-symbiosis-figure",
+   "slug": "hirono-x-polar-symbiosis-figure",
+   "name_en": "Hirono x Polar Symbiosis Figure",
+   "name_th": null,
+   "series_id": null,
+   "category": "OTHER",
+   "subcategory": "Single figure",
+   "release_year": null,
+   "release_date": null,
+   "edition_type": "SINGLE",
+   "rarity": null,
+   "product_code": null,
+   "description": "Listed as an add-on deal on POP MART US.",
+   "images": [],
+   "verification_status": "VERIFIED_OFFICIAL",
+   "sources": [
+    {
+     "source_id": "pm-search",
+     "confirms": "Product name"
+    }
+   ],
+   "conflicts": [
+    "Launch date and specs not yet recorded."
+   ],
+   "aliases": [],
+   "archived": false,
+   "origin": "catalog",
+   "created_at": "2026-10-19T13:00:00Z",
+   "updated_at": "2026-10-19T13:00:00Z"
+  }
+ ]
+}

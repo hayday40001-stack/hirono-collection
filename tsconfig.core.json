@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "lib": ["ES2022", "DOM", "DOM.Iterable"] },
+  "include": ["src/domain", "src/db", "src/repositories", "src/services/backup.ts", "src/services/catalogUpdate.ts", "src/services/collectionLogic.ts", "src/services/csv.ts", "src/services/search.ts", "src/services/stats.ts"]
+}

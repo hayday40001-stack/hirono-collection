@@ -1,0 +1,30 @@
+{
+  "name": "hirono-collection",
+  "private": true,
+  "version": "1.0.0",
+  "description": "HIRONO Collection — a local-first PWA for tracking a HIRONO art toy collection",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build.mjs --serve",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "node --test --experimental-strip-types \"tests/unit/*.test.ts\"",
+    "test:e2e": "node scripts/build.mjs && node tests/e2e/run.mjs",
+    "validate:catalog": "node --experimental-strip-types scripts/validate-catalog.ts public/catalog/catalog.json",
+    "icons": "python3 scripts/make-icons.py"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "esbuild": "^0.25.0",
+    "playwright": "^1.56.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
